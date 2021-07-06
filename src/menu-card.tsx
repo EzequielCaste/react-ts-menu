@@ -16,11 +16,13 @@ export const MenuCard: React.FC<Props> = ({menu}) => {
   return (
     <div className="menu-card">
       <img src={img} alt={title} />
-      <header>
-        <h5 className="menu-title">{title}</h5>
-        <span className="menu-price">${price.toFixed(0)}</span>
-      </header>
-      <p className="menu-description">{desc}</p>
+      <div>
+        <header>
+          <h5 className="menu-title">{title}</h5>
+          <span className="menu-price">${price.toFixed(0)}</span>
+        </header>
+        <p className="menu-description">{desc}</p>
+      </div>
     </div>
   );
 };
