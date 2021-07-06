@@ -1,5 +1,8 @@
 # React TypeScript Menu App
 
+![image](https://user-images.githubusercontent.com/51804994/124529926-ebe58600-dde1-11eb-8d5e-87ed8f94552c.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
